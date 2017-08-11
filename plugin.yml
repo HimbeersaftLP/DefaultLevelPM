@@ -1,0 +1,15 @@
+name: DefaultLevelPM
+main: HimbeersaftLP\DefaultLevelPM\main
+version: 1.0.0
+api: [3.0.0-ALPHA7]
+
+commands:
+    defaultlevel:
+        description: "Set the server's default level."
+        usage: "/defaultlevel <level name>"
+        permission: set.defaultlevel
+
+permissions:
+    set.defaultlevel:
+        description: "Permission for setting the default level"
+        default: op
