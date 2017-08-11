@@ -1,3 +1,5 @@
+<?php
+
 namespace HimbeersaftLP\DefaultLevelPM;
 
 use pocketmine\plugin\PluginBase;
